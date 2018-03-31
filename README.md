@@ -152,3 +152,10 @@
 1.使用两个二分法查找，注意临界值的判断，防止bus error 或者segmentation fault就好
 ```
 
+### Remove Duplicates from Sorted Array
+
+```
+一开始使用了vector.erase(), 由于erase内部实现是当删除一个元素时将后面的元素往前移一格，效率很低。
+然后使用了两个指针，将不重复的元素移到前k位，效率较高
+```
+
