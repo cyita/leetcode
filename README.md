@@ -128,7 +128,7 @@
 2.有性能更加好的解法，还没看
 ```
 
-#### Convert Sorted Array to Binary Search Tree:
+### Convert Sorted Array to Binary Search Tree:
 
 ```
 1.无难度
@@ -166,5 +166,11 @@
 2.确定第一个数
 3.在余下的list中找两个数加起来等于-第一个数
 4.为了防止重复，每次找到正确答案时将指针移到不重复的数上
+```
+
+### Verify Preorder Serialization of a Binary Tree
+
+```
+用栈，注意边界情况、连续pop和","分隔
 ```
 
